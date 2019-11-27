@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "davidanson.vscode-markdownlint",
+        "keesschollaart.vscode-home-assistant",
+        "redhat.vscode-yaml"
+    ]
+}

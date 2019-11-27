@@ -1,0 +1,24 @@
+{
+    "editor.autoIndent": true,
+    "editor.insertSpaces": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        80
+    ],
+    "explorer.sortOrder": "type",
+    "editor.tabSize": 2,
+    "files.associations": {
+        "**/*.yaml": "home-assistant",
+        "**/.circleci/*.yml": "yaml",
+        "**/.circleci/*.yaml": "yaml",
+        "**/*.md": "markdown"
+    },
+    "files.autoGuessEncoding": false,
+    "files.encoding": "utf8",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "vscode-home-assistant.hostUrl": "http://hassio.local:8123",
+    "yaml.format.enable": true
+}
