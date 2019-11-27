@@ -1,0 +1,21 @@
+---
+version: 2
+
+workflows:
+  version: 2
+  Verify:
+    jobs:
+      - test
+
+jobs:
+  test:
+    docker:
+      - image: homeassistant/home-assistant:latest
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Check config
+          command: |
+            mv .circleci/fake_secrets.yaml secrets.yaml
+            python3 -m homeassistant -c ~/repo --script check_config --info all
