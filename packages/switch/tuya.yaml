@@ -1,0 +1,6 @@
+---
+tuya:
+  username: !secret tuya_accounts_username
+  password: !secret tuya_accounts_password
+  country_code: 44
+  platform: tuya

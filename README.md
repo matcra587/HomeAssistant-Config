@@ -13,6 +13,11 @@
 | [Playstation 4](https://www.home-assistant.io/integrations/ps4) | |
 | [Sonos](https://www.home-assistant.io/integrations/sonos) | |
 
+| Switch | Notes |
+| --- | --- |
+| [TP-Link Smart Home Devices](https://www.home-assistant.io/integrations/tplink/) | |
+| [Tuya](https://www.home-assistant.io/integrations/tuya/) | |
+
 | Text to Speech | Notes |
 | --- | --- |
 | [Amazon Polly](https://www.home-assistant.io/integrations/amazon_polly/) | |
