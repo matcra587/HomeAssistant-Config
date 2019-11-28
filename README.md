@@ -40,6 +40,10 @@
 | [Zigbee Home Automation](https://www.home-assistant.io/integrations/zha/) | |
 | [Z-Wave](https://www.home-assistant.io/integrations/zwave/) | |
 
+| Notifications | Notes |
+| --- | --- |
+| [Slack](https://www.home-assistant.io/integrations/slack/) | |
+
 | Security | Notes |
 | --- | --- |
 | [Ring](https://www.home-assistant.io/integrations/ring/) | |
