@@ -1,9 +1,9 @@
 ---
 homeassistant:
   name: Home
-  latitude: !secret homeassistant_latitude
-  longitude: !secret homeassistant_longitude
-  elevation: !secret homeassistant_elevation
+  latitude: !secret homeAssistant_latitude
+  longitude: !secret homeAssistant_longitude
+  elevation: !secret homeAssistant_elevation
   unit_system: metric
   packages: !include_dir_named packages
   time_zone: Europe/London

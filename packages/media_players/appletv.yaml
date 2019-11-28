@@ -1,6 +1,6 @@
 ---
 apple_tv:
-  - host: !secret appletv_ip1
+  - host: !secret appleTv_ip1
     start_off: true
-    login_id: !secret appletv_login_id
-    credentials: !secret appletv_credentials
+    login_id: !secret appleTv_loginId
+    credentials: !secret appleTv_credentials
