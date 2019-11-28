@@ -7,19 +7,26 @@
 ## Integrations Used
 
 | Media Players | Notes |
-| :---: | :---: |
+| --- | --- |
 | [Apple TV](https://www.home-assistant.io/integrations/apple_tv) | Integration broken with tvOS13 |
 | [Google Cast](https://www.home-assistant.io/integrations/cast) | |
 | [Playstation 4](https://www.home-assistant.io/integrations/ps4) | |
 | [Sonos](https://www.home-assistant.io/integrations/sonos) | |
 
+| Text to Speech | Notes |
+| --- | --- |
+| [Amazon Polly](https://www.home-assistant.io/integrations/amazon_polly/) | |
+| [Google Translate Text-to-Speech](https://www.home-assistant.io/integrations/google_translate/) | |
+| [Microsoft Text-to-Speech](https://www.home-assistant.io/integrations/microsoft/) | |
+| [Watson TTS](https://www.home-assistant.io/integrations/watson_tts)| |
+
 | Utility | Notes |
-| :---: | :---: |
+| --- | --- |
 | [Season Sensor](https://www.home-assistant.io/integrations/season/) | |
 | [Uptime Sensor](https://www.home-assistant.io/integrations/uptime/) | |
 | [Version Sensor](https://www.home-assistant.io/integrations/version/)| |
 
 | Weather | Notes |
-| :---: | :---: |
+| --- | --- |
 | [Ambient Weather Station Sensor](https://www.home-assistant.io/integrations/ambient_station/) | |
 | [World Wide Lightning Location Network](https://www.home-assistant.io/integrations/wwlln/)| |
