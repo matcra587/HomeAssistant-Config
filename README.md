@@ -26,6 +26,10 @@
 | [Zigbee Home Automation](https://www.home-assistant.io/integrations/zha/) | |
 | [Z-Wave](https://www.home-assistant.io/integrations/zwave/) | |
 
+| Security | Notes |
+| --- | --- |
+| [Ring](https://www.home-assistant.io/integrations/ring/) | |
+
 | Switch | Notes |
 | --- | --- |
 | [TP-Link Smart Home Devices](https://www.home-assistant.io/integrations/tplink/) | |
