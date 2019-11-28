@@ -3,7 +3,7 @@ sensor:
   - platform: here_travel_time
     app_id: !secret here_app_id
     app_code: !secret here_app_code
-    name: Morning Commute
+    name: Morning Commute HERE
     origin_latitude: !secret homeassistant_latitude
     origin_longitude: !secret homeassistant_longitude
     destination_latitude: !secret work_latitude
