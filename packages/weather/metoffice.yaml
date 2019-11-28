@@ -1,0 +1,4 @@
+---
+weather:
+  - platform: metoffice
+    api_key: !secret metOffice_apiKey

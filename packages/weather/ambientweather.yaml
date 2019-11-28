@@ -1,4 +1,0 @@
----
-ambient_station:
-  api_key: !secret ambientWeather_apiKey
-  app_key: !secret ambientWeather_appKey

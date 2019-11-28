@@ -79,7 +79,7 @@
 
 | Weather | Notes |
 | --- | --- |
-| [Ambient Weather Station Sensor](https://www.home-assistant.io/integrations/ambient_station/) | |
+| [Met Office](https://www.home-assistant.io/integrations/metoffice/) | |
 | [World Wide Lightning Location Network](https://www.home-assistant.io/integrations/wwlln/)| |
 
 ## Devices Used
