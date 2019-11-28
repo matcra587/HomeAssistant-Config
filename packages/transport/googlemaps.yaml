@@ -1,0 +1,9 @@
+---
+  - platform: google_travel_time
+    name: Morning Commute Google
+    api_key: !secret googleCloud_apiKey
+    origin: !secret homeAssistant_placeID
+    destination: !secret work_placeID
+    options:
+      units: imperial
+      mode: driving
