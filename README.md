@@ -16,4 +16,4 @@
 | Weather | Notes |
 | :---: | :---: |
 | [Ambient Weather Station Sensor](https://www.home-assistant.io/integrations/ambient_station/) | |
-
+| [World Wide Lightning Location Network](https://www.home-assistant.io/integrations/wwlln/)| |

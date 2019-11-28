@@ -1,0 +1,4 @@
+---
+wwlln:
+  latitude: !secret homeAssistant_latitude
+  longitude: !secret homeAssistant_longitude
