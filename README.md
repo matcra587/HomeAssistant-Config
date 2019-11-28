@@ -13,6 +13,11 @@
 | [Playstation 4](https://www.home-assistant.io/integrations/ps4) | |
 | [Sonos](https://www.home-assistant.io/integrations/sonos) | |
 
+| MultiUse | Notes |
+| --- | --- |
+| [Zigbee Home Automation](https://www.home-assistant.io/integrations/zha/) | I use the [ConBee II](https://phoscon.de/en/conbee2) |
+| [Z-Wave](https://www.home-assistant.io/integrations/zwave/) | |
+
 | Switch | Notes |
 | --- | --- |
 | [TP-Link Smart Home Devices](https://www.home-assistant.io/integrations/tplink/) | |
@@ -40,3 +45,18 @@
 | --- | --- |
 | [Ambient Weather Station Sensor](https://www.home-assistant.io/integrations/ambient_station/) | |
 | [World Wide Lightning Location Network](https://www.home-assistant.io/integrations/wwlln/)| |
+
+## Devices Used
+
+| Device |
+| --- |
+| [Aeotec ZW120 Door/Window Sensor Gen5](https://www.amazon.co.uk/Aeotec-Aeon-Labs-ZW120-Window/dp/B01GK5D1PE) |
+| [Aeotec Door/Window Sensor 6](https://aeotec.com/smallest-door-window-sensor/)|
+| [Apple TV](https://www.apple.com/uk/shop/buy-tv/apple-tv-hd/32gb) |
+| [Google Home](https://store.google.com/product/google_home) |
+| [Hue - White and Colour Ambience](https://www2.meethue.com/en-gb/p/hue-white-and-colour-ambience-1-pack-b22/8718699673123)|
+| [Playstation 4](https://www.playstation.com/en-gb/explore/ps4/buy-ps4/buy-new-ps4/) |
+| [Ring Doorbell](https://en-uk.ring.com/products/video-doorbell)|
+| [Sonos One](https://www.sonos.com/en-gb/shop/one.html) |
+| [TP Link HS100](https://www.tp-link.com/uk/home-networking/smart-plug/hs100/) |
+| [Woox r4517 Powerstrip](https://wooxhome.com/power-c2/woox-r4517-powerstrip-uk-p7)|
