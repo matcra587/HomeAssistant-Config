@@ -4,6 +4,14 @@
 [![CircleCI](https://circleci.com/gh/matcra587/HomeAssistant-Config/tree/master.svg?style=shield)](https://circleci.com/gh/matcra587/HomeAssistant-Config/tree/master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+## Hardware
+
+| Device |
+| --- |
+| [CanaKit Raspberry Pi 3 B+ Complete Starter Kit](https://www.amazon.co.uk/CanaKit-Raspberry-Plus-Complete-Starter/dp/B07BR61P39) |
+| [ConBee II](https://phoscon.de/en/conbee2) |
+| [Z-Stick Gen5](https://aeotec.com/z-wave-usb-stick/) |
+
 ## Integrations Used
 
 | Media Players | Notes |
@@ -15,7 +23,7 @@
 
 | MultiUse | Notes |
 | --- | --- |
-| [Zigbee Home Automation](https://www.home-assistant.io/integrations/zha/) | I use the [ConBee II](https://phoscon.de/en/conbee2) |
+| [Zigbee Home Automation](https://www.home-assistant.io/integrations/zha/) | |
 | [Z-Wave](https://www.home-assistant.io/integrations/zwave/) | |
 
 | Switch | Notes |
