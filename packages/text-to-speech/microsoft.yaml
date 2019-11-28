@@ -1,0 +1,12 @@
+---
+tts:
+  - platform: microsoft
+    api_key: !secret microsoftAzure_apiKey
+    language: en-gb
+    gender: Male
+    type: George, Apollo
+    rate: 20
+    volume: -50
+    pitch: high
+    contour: (0, 0) (100, 100)
+    region: uksouth
