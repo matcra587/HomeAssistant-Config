@@ -1,0 +1,15 @@
+---
+sensor:
+  - platform: here_travel_time
+    app_id: !secret here_app_id
+    app_code: !secret here_app_code
+    name: Morning Commute
+    origin_latitude: !secret homeassistant_latitude
+    origin_longitude: !secret homeassistant_longitude
+    destination_latitude: !secret work_latitude
+    destination_longitude: !secret work_longitude
+    mode: car
+    route_mode: fastest
+    traffic_mode: true
+    unit_system: imperial
+    scan_interval: 2678400 # 1 month

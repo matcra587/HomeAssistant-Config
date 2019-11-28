@@ -25,6 +25,10 @@
 | [Microsoft Text-to-Speech](https://www.home-assistant.io/integrations/microsoft/) | |
 | [Watson TTS](https://www.home-assistant.io/integrations/watson_tts)| |
 
+| Transport | Notes |
+| --- | --- |
+| [HERE Travel Time](https://www.home-assistant.io/integrations/here_travel_time/) | |
+
 | Utility | Notes |
 | --- | --- |
 | [Season Sensor](https://www.home-assistant.io/integrations/season/) | |
