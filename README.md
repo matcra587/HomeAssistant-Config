@@ -13,6 +13,12 @@
 | [Playstation 4](https://www.home-assistant.io/integrations/ps4) | |
 | [Sonos](https://www.home-assistant.io/integrations/sonos) | |
 
+| Utility | Notes |
+| :---: | :---: |
+| [Season Sensor](https://www.home-assistant.io/integrations/season/) | |
+| [Uptime Sensor](https://www.home-assistant.io/integrations/uptime/) | |
+| [Version Sensor](https://www.home-assistant.io/integrations/version/)| |
+
 | Weather | Notes |
 | :---: | :---: |
 | [Ambient Weather Station Sensor](https://www.home-assistant.io/integrations/ambient_station/) | |
