@@ -4,8 +4,8 @@ sensor:
     app_id: !secret here_app_id
     app_code: !secret here_app_code
     name: Morning Commute HERE
-    origin_latitude: !secret homeassistant_latitude
-    origin_longitude: !secret homeassistant_longitude
+    origin_latitude: !secret homeAssistant_latitude
+    origin_longitude: !secret homeAssistant_longitude
     destination_latitude: !secret work_latitude
     destination_longitude: !secret work_longitude
     mode: car
