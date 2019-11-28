@@ -1,0 +1,5 @@
+---
+tts:
+  - platform: watson_tts
+    watson_apikey: !secret ibmCloud_apiKey
+    voice: en-GB_KateV3Voice
