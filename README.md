@@ -27,6 +27,7 @@
 
 | Transport | Notes |
 | --- | --- |
+| [Google Maps Travel Time](https://www.home-assistant.io/integrations/google_travel_time/) | |
 | [HERE Travel Time](https://www.home-assistant.io/integrations/here_travel_time/) | |
 
 | Utility | Notes |
