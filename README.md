@@ -20,6 +20,10 @@
 | [Moon](https://www.home-assistant.io/integrations/moon/) | |
 | [Sun](https://www.home-assistant.io/integrations/sun/) | |
 
+| Image Processing | Notes |
+| --- | --- |
+| [FFmpeg](https://www.home-assistant.io/integrations/ffmpeg/) | As I don't use has.io, I have to specify the location for the ffmpeg binary |
+
 | Media Players | Notes |
 | --- | --- |
 | [Apple TV](https://www.home-assistant.io/integrations/apple_tv) | Integration broken with tvOS13 |
