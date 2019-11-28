@@ -1,0 +1,4 @@
+---
+sensor:
+  - platform: season
+    type: astronomical
