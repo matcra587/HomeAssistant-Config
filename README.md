@@ -24,7 +24,7 @@
 | --- | --- |
 | [Apple TV](https://www.home-assistant.io/integrations/apple_tv) | Integration broken with tvOS13 |
 | [Google Cast](https://www.home-assistant.io/integrations/cast) | |
-| [Playstation 4](https://www.home-assistant.io/integrations/ps4) | |
+| [Playstation 4](https://www.home-assistant.io/integrations/ps4) | Unable to use a yaml file - config done via WebUI |
 | [Sonos](https://www.home-assistant.io/integrations/sonos) | |
 
 | MultiUse | Notes |
@@ -55,7 +55,9 @@
 
 | Utility | Notes |
 | --- | --- |
+| [CPU Speed](https://www.home-assistant.io/integrations/cpuspeed/) | |
 | [Season Sensor](https://www.home-assistant.io/integrations/season/) | |
+| [System Montior](https://www.home-assistant.io/integrations/systemmonitor/) | |
 | [Uptime Sensor](https://www.home-assistant.io/integrations/uptime/) | |
 | [Version Sensor](https://www.home-assistant.io/integrations/version/)| |
 
