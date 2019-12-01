@@ -16,7 +16,6 @@
 
 | Environment | Notes |
 | --- | --- |
-| [CO2Signal](https://www.home-assistant.io/integrations/co2signal/) | |
 | [Moon](https://www.home-assistant.io/integrations/moon/) | |
 | [Sun](https://www.home-assistant.io/integrations/sun/) | |
 

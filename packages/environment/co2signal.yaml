@@ -1,6 +1,0 @@
----
-sensor:
-  - platform: co2signal
-    token: !secret co2signal_apiKey
-    latitude: !secret homeAssistant_latitude
-    longitude: !secret homeAssistant_longitude
