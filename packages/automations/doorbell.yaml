@@ -1,0 +1,14 @@
+---
+automation:
+  - alias: "Ring Doorbell Battery Low"
+    trigger:
+      - platform: numeric_state
+        entity_id: sensor.ring_front_door_battery
+        below: '25'
+    action:
+      - service: notify.mobile_app_iphonexs_matt
+        data:
+          message: "Please charge the Ring Doorbell, as the battery is below 25%"
+      - service: notify.slack
+        data:
+          message: "Please charge the Ring Doorbell, as the battery is below 25%"
