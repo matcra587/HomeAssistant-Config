@@ -13,4 +13,11 @@ binary_sensor:
       patio_door_state:
         friendly_name: "Patio Door"
         device_class: door
-        value_template: "{%if states.binary_sensor.aeon_labs_zw112_door_window_sensor_6_sensor.state == 'on' %}Open{%elif states.binary_sensor.aeon_labs_zw112_door_window_sensor_6_sensor.state == 'off' %}Close{% endif %}"
+        value_template: >-
+          {% if states.binary_sensor.aeon_labs_zw112_door_window_sensor_6_sensor.state ==   'on' %}
+            Open
+          {% elif states.binary_sensor.aeon_labs_zw112_door_window_sensor_6_sensor.state   == 'off' %}
+            Closed
+          {% else %}
+            n/a
+          {% endif %}
