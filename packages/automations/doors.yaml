@@ -1,0 +1,54 @@
+---
+automation:
+  - alias: "Front Door: Open"
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.front_door_state
+        from: 'off'
+        to: 'on'
+    action:
+      - service: notify.mobile_app_iphonexs_matt
+        data:
+          message: "Front Door State: OPEN"
+      - service: notify.slack
+        data:
+          message: "Front Door State: OPEN"
+  - alias: "Front Door: Closed"
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.front_door_state
+        from: 'on'
+        to: 'off'
+    action:
+      - service: notify.mobile_app_iphonexs_matt
+        data:
+          message: "Front Door State: CLOSED"
+      - service: notify.slack
+        data:
+          message: "Front Door State: CLOSED"
+  - alias: "Front Door: Tamper"
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.front_door_tamper_state
+        from: 'off'
+        to: 'on'
+    action:
+      - service: notify.mobile_app_iphonexs_matt
+        data:
+          message: "Front Door Sensor State: TAMPER"
+      - service: notify.slack
+        data:
+          message: "Front Door Sensor State: TAMPER"
+  - alias: "Front Door: Tamper Reset"
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.front_door_tamper_state
+        from: 'on'
+        to: 'off'
+    action:
+      - service: notify.mobile_app_iphonexs_matt
+        data:
+          message: "Front Door Sensor State: TAMPER RESET"
+      - service: notify.slack
+        data:
+          message: "Front Door Sensor State: TAMPER RESET"
