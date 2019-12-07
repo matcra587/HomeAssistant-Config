@@ -1,11 +1,11 @@
 ---
 group:
-  doors:
+  all_doors:
     - binary_sensor.aeon_labs_zw120_door_window_sensor_gen5_sensor
     - binary_sensor.aeon_labs_zw112_door_window_sensor_6_sensor
-  speakers:
+  all_speakers:
     - media_player.master_bedroom_speaker
     - media_player.sonos_one
-  people:
+  all_people:
     - person.matt
     - person.jenelle
