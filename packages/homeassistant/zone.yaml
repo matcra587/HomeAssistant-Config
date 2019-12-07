@@ -1,0 +1,8 @@
+---
+zone:
+  - name: Matts Work
+    latitude: !secret work_latitude
+    longitude: !secret work_longitude
+    radius: 200
+    icon: mdi:map-marker
+    passive: false
