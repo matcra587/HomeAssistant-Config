@@ -1,8 +1,5 @@
 ---
 group:
-  lights:
-    - light.philips_lct015_d8ab5704_level_light_color_on_off
-    - light.philips_lct015_bede8d03_level_light_color_on_off
   doors:
     - binary_sensor.aeon_labs_zw120_door_window_sensor_gen5_sensor
     - binary_sensor.aeon_labs_zw112_door_window_sensor_6_sensor
