@@ -2,3 +2,9 @@
 weather:
   - platform: metoffice
     api_key: !secret metOffice_apiKey
+    name: Home
+  - platform: metoffice
+    api_key: !secret metOffice_apiKey
+    name: Jenelles Parents
+    latitude: !secret jenellesParents_latitude
+    longitude: !secret jenellesParents_longitude
