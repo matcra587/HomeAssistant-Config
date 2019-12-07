@@ -20,3 +20,7 @@ sensor.aeon_labs_zw120_door_window_sensor_gen5_burglar:
   friendly_name: Front Door Sensor Burglar
 sensor.aeon_labs_zw120_door_window_sensor_gen5_sourcenodeid:
   friendly_name: Front Door Sensor SourceNodeId
+binary_sensor.aeon_labs_zw112_door_window_sensor_6_sensor:
+  friendly_name: Patio Door Sensor
+sensor.aeon_labs_zw112_door_window_sensor_6_battery_level:
+  friendly_name: Patio Door Sensor Battery Level
