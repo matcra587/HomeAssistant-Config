@@ -1,0 +1,10 @@
+---
+person:
+  - name: Matt Craven
+    id: matt
+    device_trackers:
+      - device_tracker.iphonexs_matt
+  - name: Jenelle
+    id: jenelle
+    device_trackers:
+      - device_tracker.life360_jenelle
