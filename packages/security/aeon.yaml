@@ -10,14 +10,3 @@ binary_sensor:
         friendly_name: "Front Door"
         device_class: problem
         value_template: "{{ is_state('sensor.aeon_labs_zw120_door_window_sensor_gen5_burglar', '3') }}"
-      patio_door_state:
-        friendly_name: "Patio Door"
-        device_class: door
-        value_template: >-
-          {% if states.binary_sensor.aeon_labs_zw112_door_window_sensor_6_sensor.state ==   'on' %}
-            Open
-          {% elif states.binary_sensor.aeon_labs_zw112_door_window_sensor_6_sensor.state   == 'off' %}
-            Closed
-          {% else %}
-            n/a
-          {% endif %}
