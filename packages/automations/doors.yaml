@@ -52,3 +52,29 @@ automation:
       - service: notify.slack
         data:
           message: "Front Door Sensor State: TAMPER RESET"
+  - alias: "Patio Door: Open"
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.patio_door_state
+        from: 'off'
+        to: 'on'
+    action:
+      - service: notify.mobile_app_iphonexs_matt
+        data:
+          message: "Patio Door State: OPEN"
+      - service: notify.slack
+        data:
+          message: "Patio Door State: OPEN"
+  - alias: "Patio Door: Closed"
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.patio_door_state
+        from: 'on'
+        to: 'off'
+    action:
+      - service: notify.mobile_app_iphonexs_matt
+        data:
+          message: "Patio Door State: CLOSED"
+      - service: notify.slack
+        data:
+          message: "Patio Door State: CLOSED"
