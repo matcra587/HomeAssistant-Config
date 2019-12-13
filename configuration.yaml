@@ -8,3 +8,5 @@ homeassistant:
   packages: !include_dir_named packages
   time_zone: Europe/London
   customize: !include customize.yaml
+  lovelace:
+    mode: yaml
