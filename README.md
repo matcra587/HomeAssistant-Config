@@ -9,6 +9,7 @@
 | Device |
 | --- |
 | [CanaKit Raspberry Pi 3 B+ Complete Starter Kit](https://www.amazon.co.uk/CanaKit-Raspberry-Plus-Complete-Starter/dp/B07BR61P39) |
+| [SanDisk Extreme - 64GB microSDXC](https://www.amazon.co.uk/SanDisk-Extreme-microSDXC-Adapter-Performance/dp/B07FCMBLV6)|
 | [ConBee II](https://phoscon.de/en/conbee2) |
 | [Z-Stick Gen5](https://aeotec.com/z-wave-usb-stick/) |
 
