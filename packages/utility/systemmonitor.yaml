@@ -37,7 +37,5 @@ sensor:
       - type: process
         arg: sshd
       - type: process
-        arg: hass
-      - type: process
         arg: chronyd
       - type: last_boot
