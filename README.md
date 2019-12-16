@@ -4,6 +4,12 @@
 [![CircleCI](https://circleci.com/gh/matcra587/HomeAssistant-Config/tree/master.svg?style=shield)](https://circleci.com/gh/matcra587/HomeAssistant-Config/tree/master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+## Custom Cards Used
+
+| Custom Card | Description|
+| --- | --- |
+| [Vertical Stack in Card](https://github.com/custom-cards/vertical-stack-in-card) | Similar to vertical-stack but removes card borders |
+
 ## Hardware
 
 | Device |
