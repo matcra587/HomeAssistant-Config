@@ -12,14 +12,14 @@ automation:
           - light.philips_lct015_bede8d03_level_light_color_on_off
         data:
           brightness_pct: 50
-          rgb_color: "[255,0,0]"
+          rgb_color: [255,0,0]
           transition: 10
       - service: light.turn_on
         entity_id:
           - light.philips_lct015_d8ab5704_level_light_color_on_off
         data:
           brightness_pct: 50
-          rgb_color: "[255,0,0]"
+          rgb_color: [255,0,0]
           transition: 10
       - service: switch.turn_on
         entity_id:
@@ -27,7 +27,7 @@ automation:
   - alias: Holiday || Lights Off Midnight
     trigger:
       - platform: time
-        at: "23:45"
+        at: "00:00"
     action:
       - service: light.turn_off
         entity_id:
@@ -39,7 +39,7 @@ automation:
   - alias: Holiday || Lights Off ~10pm
     trigger:
       - platform: time
-        at: "23:45"
+        at: "00:00"
     action:
       - service: light.turn_off
         entity_id:
