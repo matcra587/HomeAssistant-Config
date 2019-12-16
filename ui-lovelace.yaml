@@ -1,19 +1,86 @@
----
 title: Home
+resources:
+  - url: /local/cards/vertical-stack-in-card.js?v=0.1.3
+    type: js
 views:
   - badges: []
     cards:
       - cards:
-          - elements: null
-            entities:
-              - entity: person.matt_craven
-              - entity: person.jenelle
-            type: entities
-          - content: |
-              Placeholder
-            elements: null
-            type: markdown
-        type: horizontal-stack
+          - cards:
+              - cards:
+                  - elements: null
+                    type: entities
+                    entities:
+                      - entity: person.matt_craven
+                        name: Matt Craven (iCloud)
+                        icon: 'mdi:apple-icloud'
+                      - entity: device_tracker.life360_matt_craven
+                        name: Matt Craven (life360)
+                        icon: 'mdi:radar'
+                      - entity: device_tracker.iphonexs_matt
+                        name: Matt's iPhone XS Max
+                        icon: 'mdi:cellphone-iphone'
+                      - entity: device_tracker.mattsapple_watch
+                        name: Matt's Apple Watch
+                        icon: 'mdi:watch'
+                    title: Matt's Status
+                    show_header_toggle: false
+                  - type: entities
+                    entities:
+                      - entity: person.matt_craven
+                        name: Jenelle (person)
+                        icon: 'mdi:apple-icloud'
+                      - entity: device_tracker.life360_jenelle
+                        name: Jenelle (life360)
+                        icon: 'mdi:radar'
+                    title: Jenelle's Status
+                    show_header_toggle: false
+                type: horizontal-stack
+              - cards:
+                  - elements: null
+                    type: entities
+                    entities:
+                      - entity: binary_sensor.front_door_state
+                      - entity: binary_sensor.patio_door_state
+                    title: House Security (Door Sensors)
+                    show_header_toggle: false
+                  - type: entities
+                    entities:
+                      - entity: sensor.ring_front_door_last_ding
+                      - entity: sensor.ring_front_door_last_motion
+                      - entity: sensor.ring_front_door_battery
+                    title: House Security (Ring Doorbell)
+                    show_header_toggle: false
+                type: horizontal-stack
+              - cards:
+                  - elements: null
+                    type: entities
+                    entities:
+                      - entity: light.philips_lct015_bede8d03_level_light_color_on_off
+                        icon: 'mdi:ceiling-light'
+                      - entity: light.philips_lct015_d8ab5704_level_light_color_on_off
+                        icon: 'mdi:ceiling-light'
+                      - entity: switch.smart_plug
+                        name: Kitchen Bottle Light
+                        icon: 'mdi:lamp'
+                    title: House Lights
+                    show_header_toggle: false
+                  - type: entities
+                    entities:
+                      - entity: switch.85207804600194a4b484_1
+                        icon: 'mdi:apple'
+                      - entity: switch.85207804600194a4b484_2
+                        icon: 'mdi:television'
+                      - entity: switch.85207804600194a4b484_3
+                        icon: 'mdi:speaker'
+                      - entity: switch.85207804600194a4b484_7
+                        icon: 'mdi:usb'
+                    title: House Plugs
+                    show_header_toggle: false
+                type: horizontal-stack
+            type: 'custom:vertical-stack-in-card'
+        type: 'custom:vertical-stack-in-card'
+    type: 'custom:vertical-stack-in-card'
     icon: 'mdi:home'
     panel: true
     path: default
@@ -94,9 +161,9 @@ views:
                         title: Home Assistant Usage (%)
                         type: entities
                     type: horizontal-stack
-                type: vertical-stack
+                type: 'custom:vertical-stack-in-card'
             type: horizontal-stack
-        type: vertical-stack
+        type: 'custom:vertical-stack-in-card'
     icon: 'mdi:raspberry-pi'
     panel: true
     path: raspberry-pi
