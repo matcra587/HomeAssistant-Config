@@ -27,9 +27,9 @@ views:
                     show_header_toggle: false
                   - type: entities
                     entities:
-                      - entity: person.matt_craven
+                      - entity: person.jenelle
                         name: Jenelle (person)
-                        icon: 'mdi:apple-icloud'
+                        icon: 'mdi:account-box'
                       - entity: device_tracker.life360_jenelle
                         name: Jenelle (life360)
                         icon: 'mdi:radar'
