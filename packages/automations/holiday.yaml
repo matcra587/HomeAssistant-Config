@@ -13,7 +13,6 @@ automation:
         data:
           brightness_pct: 100
           color_temp: "{{ range(153,500) | random | int }}"
-          rgb_color: [255, 255, 255]
           transition: 10
       - service: light.turn_on
         entity_id:
@@ -21,7 +20,6 @@ automation:
         data:
           brightness_pct: 100
           color_temp: "{{ range(153,500) | random | int }}"
-          rgb_color: [255, 255, 255]
           transition: 10
       - service: switch.turn_on
         entity_id:
