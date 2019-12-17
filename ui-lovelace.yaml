@@ -47,7 +47,9 @@ views:
                   - type: entities
                     entities:
                       - entity: sensor.ring_front_door_last_ding
+                        icon: 'mdi:bell-ring'
                       - entity: sensor.ring_front_door_last_motion
+                        icon: 'mdi:motion-sensor'
                       - entity: sensor.ring_front_door_battery
                     title: House Security (Ring Doorbell)
                     show_header_toggle: false
