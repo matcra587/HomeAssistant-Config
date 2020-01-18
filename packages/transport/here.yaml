@@ -1,8 +1,7 @@
 ---
 sensor:
   - platform: here_travel_time
-    app_id: !secret here_app_id
-    app_code: !secret here_app_code
+    app_key: !secret here_api_key
     name: Morning Commute HERE
     origin_latitude: !secret homeAssistant_latitude
     origin_longitude: !secret homeAssistant_longitude
