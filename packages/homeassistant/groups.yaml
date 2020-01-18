@@ -3,9 +3,13 @@ group:
   all_doors:
     - binary_sensor.aeon_labs_zw120_door_window_sensor_gen5_sensor
     - binary_sensor.aeon_labs_zw112_door_window_sensor_6_sensor
+    - binary_sensor.aeotec_limited_zwa008_door_window_sensor_7_sensor
   all_speakers:
     - media_player.master_bedroom_speaker
     - media_player.sonos_one
   all_people:
     - person.matt
     - person.jenelle
+  all_living_room_lights:
+    - light.philips_lst002_b5b1f603_level_light_color_on_off
+    - light.philips_lct015_d8ab5704_level_light_color_on_off
