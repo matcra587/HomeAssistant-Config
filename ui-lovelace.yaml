@@ -91,16 +91,35 @@ views:
   - badges: []
     cards:
       - cards:
-          - content: |
-              Placeholder for **AppleTV**, once tvOS13 is supported.
-            elements: null
-            type: markdown
-          - elements: null
-            entity: media_player.sonos_one
-            show_header_toggle: false
-            title: Speakers
-            type: media-control
-        type: horizontal-stack
+          - cards:
+              - cards:
+                  - cards:
+                      - elements: null
+                        content: |
+                          Placeholder for **AppleTV**, once tvOS13 is supported.
+                        type: markdown
+                      - elements: null
+                        entity: media_player.sonos_one
+                        show_header_toggle: false
+                        title: Speakers
+                        type: media-control
+                  - cards:
+                      - elements: null
+                        entity: light.philips_lct015_d8ab5704_level_light_color_on_off
+                        show_header_toggle: false
+                        title: Living Room Light
+                        icon: 'mdi:ceiling-light'
+                        type: light
+                      - elements: null
+                        entity: light.philips_lst002_b5b1f603_level_light_color_on_off
+                        show_header_toggle: false
+                        title: TV Light Strip
+                        icon: 'mdi:led-strip-variant'
+                        type: light
+                    type: horizontal-stack
+                type: 'custom:vertical-stack-in-card'
+            type: horizontal-stack
+        type: 'custom:vertical-stack-in-card'
     icon: 'mdi:seat'
     panel: true
     path: living-room
@@ -112,6 +131,7 @@ views:
             entity: light.philips_lct015_bede8d03_level_light_color_on_off
             show_header_toggle: false
             title: Master Bedroom Light
+            icon: 'mdi:ceiling-light'
             type: light
           - elements: null
             entity: media_player.master_bedroom_speaker
