@@ -94,9 +94,11 @@
 | --- |
 | [Aeotec ZW120 Door/Window Sensor Gen5](https://www.amazon.co.uk/Aeotec-Aeon-Labs-ZW120-Window/dp/B01GK5D1PE) |
 | [Aeotec Door/Window Sensor 6](https://aeotec.com/smallest-door-window-sensor/)|
+| [Aeotec Door/Window Sensor 7](https://aeotec.com/z-wave-door-window-sensor/)|
 | [Apple TV](https://www.apple.com/uk/shop/buy-tv/apple-tv-hd/32gb) |
 | [Google Home](https://store.google.com/product/google_home) |
 | [Hue - White and Colour Ambience](https://www2.meethue.com/en-gb/p/hue-white-and-colour-ambience-1-pack-b22/8718699673123)|
+| [Hue - Lightstrip Plus](https://www2.meethue.com/en-gb/p/hue-white-and-colour-ambience-lightstrip-plus/7190155PH)|
 | [Playstation 4](https://www.playstation.com/en-gb/explore/ps4/buy-ps4/buy-new-ps4/) |
 | [Ring Doorbell](https://en-uk.ring.com/products/video-doorbell)|
 | [Sonos One](https://www.sonos.com/en-gb/shop/one.html) |
