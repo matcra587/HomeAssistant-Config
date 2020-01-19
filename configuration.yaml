@@ -9,5 +9,8 @@ homeassistant:
   time_zone: Europe/London
   customize: !include customize.yaml
 
+frontend:
+  themes: !include_dir_named themes
+
 lovelace:
   mode: yaml
