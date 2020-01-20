@@ -19,6 +19,6 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "workbench.editor.highlightModifiedTabs": true,
-    "vscode-home-assistant.hostUrl": "http://hassio.local:8123",
+    "vscode-home-assistant.hostUrl": "http://192.168.1.2:8123",
     "yaml.format.enable": true
 }
