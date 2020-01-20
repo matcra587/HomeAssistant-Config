@@ -1,0 +1,49 @@
+---
+title: Raspberry Pi Information
+icon: "mdi:raspberry-pi"
+panel: true
+path: raspberry-pi
+badges: []
+cards:
+  - cards:
+      - cards:
+          - cards:
+              - cards:
+                  - elements: null
+                    entities:
+                      - entity: sensor.current_version
+                      - entity: sensor.latest_version
+                    show_header_toggle: false
+                    title: Home Assistant Versions
+                    type: entities
+                  - elements: null
+                    entities:
+                      - entity: sensor.process_sshd
+                      - entity: sensor.process_chronyd
+                    show_header_toggle: false
+                    title: Home Assistant Processes
+                    type: entities
+                type: horizontal-stack
+              - cards:
+                  - elements: null
+                    entities:
+                      - entity: sensor.time_online
+                      - entity: sensor.last_boot
+                      - entity: sensor.cpu_temperature
+                      - entity: sensor.ipv4_address_eth0
+                    show_header_toggle: false
+                    title: Home Assistant Details
+                    type: entities
+                  - elements: null
+                    entities:
+                      - entity: sensor.processor_use
+                      - entity: sensor.memory_use_percent
+                      - entity: sensor.disk_use_percent
+                      - entity: sensor.swap_use_percent
+                    show_header_toggle: false
+                    title: Home Assistant Usage (%)
+                    type: entities
+                type: horizontal-stack
+            type: "custom:vertical-stack-in-card"
+        type: horizontal-stack
+    type: "custom:vertical-stack-in-card"
