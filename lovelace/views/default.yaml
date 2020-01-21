@@ -11,18 +11,24 @@ cards:
               - elements: null
                 type: entities
                 entities:
-                  - entity: person.matt_craven
-                    name: Matt Craven (iCloud)
-                    icon: "mdi:apple-icloud"
                   - entity: device_tracker.life360_matt_craven
                     name: Matt Craven (life360)
                     icon: "mdi:radar"
                   - entity: device_tracker.iphonexs_matt
-                    name: Matt's iPhone XS Max
+                    name: Matt's iPhone XS Max (Mobile App)
+                    icon: "mdi:cellphone-iphone"
+                  - entity: device_tracker.iphonexs_matt_2
+                    name: Matt's iPhone XS Max (iCloud)
+                    icon: "mdi:cellphone-iphone"
+                  - entity: sensor.iphonexs_matt_battery_state
+                    name: Matt's iPhone XS Max Battery State (iCloud)
                     icon: "mdi:cellphone-iphone"
                   - entity: device_tracker.mattsapple_watch
-                    name: Matt's Apple Watch
-                    icon: "mdi:watch"
+                    name: Matt's Apple Watch (iCloud)
+                    icon: "mdi:watch-variant"
+                  - entity: sensor.matts_apple_watch_battery_state
+                    name: Matt's Apple Watch Battery State (iCloud)
+                    icon: "mdi:watch-variant"
                 title: Matt's Status
                 show_header_toggle: false
               - type: entities
