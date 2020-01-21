@@ -54,13 +54,16 @@ cards:
             type: horizontal-stack
           - cards:
               - elements: null
-                type: entities
+                type: slider-entity
                 entities:
-                  - entity: light.philips_lct015_bede8d03_level_light_color_on_off
+                  - type: slider-entity
+                    entity: light.philips_lct015_bede8d03_level_light_color_on_off
                     icon: "mdi:ceiling-light"
-                  - entity: light.philips_lct015_d8ab5704_level_light_color_on_off
+                  - type: slider-entity
+                    entity: light.philips_lct015_d8ab5704_level_light_color_on_off
                     icon: "mdi:ceiling-light"
-                  - entity: light.philips_lst002_b5b1f603_level_light_color_on_off
+                  - type: slider-entity
+                    entity: light.philips_lst002_b5b1f603_level_light_color_on_off
                     name: TV Light Strip
                     icon: "mdi:led-strip-variant"
                 title: House Lights
