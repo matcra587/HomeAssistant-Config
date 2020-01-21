@@ -23,7 +23,7 @@ cards:
                   - entity: sensor.iphonexs_matt_battery_state
                     name: Matt's iPhone XS Max Battery State (iCloud)
                     icon: "mdi:cellphone-iphone"
-                  - entity: device_tracker.mattsapple_watch
+                  - entity: device_tracker.matts_apple_watch
                     name: Matt's Apple Watch (iCloud)
                     icon: "mdi:watch-variant"
                   - entity: sensor.matts_apple_watch_battery_state
