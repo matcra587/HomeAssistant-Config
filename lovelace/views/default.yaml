@@ -54,7 +54,7 @@ cards:
             type: horizontal-stack
           - cards:
               - elements: null
-                type: slider-entity
+                type: entities
                 entities:
                   - type: slider-entity
                     entity: light.philips_lct015_bede8d03_level_light_color_on_off
