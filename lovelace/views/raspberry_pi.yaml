@@ -20,29 +20,44 @@ cards:
                     entities:
                       - entity: sensor.process_sshd
                       - entity: sensor.process_chronyd
-                    show_header_toggle: false
-                    title: Home Assistant Processes
-                    type: entities
-                type: horizontal-stack
-              - cards:
-                  - elements: null
-                    entities:
                       - entity: sensor.time_online
                       - entity: sensor.last_boot
-                      - entity: sensor.cpu_temperature
                       - entity: sensor.ipv4_address_eth0
                     show_header_toggle: false
                     title: Home Assistant Details
                     type: entities
+                type: horizontal-stack
+              - cards:
                   - elements: null
+                    type: custom:mini-graph-card
+                    name: Raspberry Pi Temperature
+                    icon: "mdi:temperature-celsius"
                     entities:
-                      - entity: sensor.processor_use
-                      - entity: sensor.memory_use_percent
-                      - entity: sensor.disk_use_percent
-                      - entity: sensor.swap_use_percent
-                    show_header_toggle: false
-                    title: Home Assistant Usage (%)
-                    type: entities
+                      - sensor.cpu_temperature
+                  - elements: null
+                    type: custom:mini-graph-card
+                    name: Memory Usage (%)
+                    icon: "mdi:memory"
+                    entities:
+                      - sensor.memory_use_percent
+                  - elements: null
+                    type: custom:mini-graph-card
+                    name: Disk Usage (%)
+                    icon: "mdi:harddisk"
+                    entities:
+                      - sensor.disk_use_percent
+                  - elements: null
+                    type: custom:mini-graph-card
+                    name: Swap Usage (%)
+                    icon: "mdi:file-swap"
+                    entities:
+                      - sensor.swap_use_percent
+                  - elements: null
+                    type: custom:mini-graph-card
+                    name: Processor Usage (%)
+                    icon: "mdi:cpu-64-bit"
+                    entities:
+                      - sensor.processor_use
                 type: horizontal-stack
             type: "custom:vertical-stack-in-card"
         type: horizontal-stack
