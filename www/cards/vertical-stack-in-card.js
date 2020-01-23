@@ -40,7 +40,7 @@ class VerticalStackInCard extends HTMLElement {
             });
         };
 
-        const _fireEvent = (ev, detail, entity=null) => {
+        const _fireEvent = (ev, detail, entity = null) => {
             ev = new Event(ev, {
                 bubbles: true,
                 cancelable: false,
@@ -118,7 +118,7 @@ class VerticalStackInCard extends HTMLElement {
                 this._card(element);
             };
 
-            if(element.updateComplete) {
+            if (element.updateComplete) {
                 element.updateComplete.then(fn);
             } else {
                 fn();
@@ -136,7 +136,7 @@ class VerticalStackInCard extends HTMLElement {
                 if (!searchEles) return;
                 searchEles = searchEles.childNodes;
                 for (let i = 0; i < searchEles.length; i++) {
-                    if(searchEles[i].style !== undefined){
+                    if (searchEles[i].style !== undefined) {
                         searchEles[i].style.margin = "0px";
                     }
                     this._card(searchEles[i]);
