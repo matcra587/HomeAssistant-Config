@@ -30,10 +30,14 @@ cards:
                     title: All Living Room Lights
                     type: entities
                   - elements: null
+                    type: "custom:mini-media-player"
                     entity: media_player.sonos_one
                     show_header_toggle: false
-                    title: Speakers
-                    type: media-control
+                    title: Sonos
+                    hide:
+                      volume: true
+                      source: true
+                      power_state: false
                 type: horizontal-stack
             type: "custom:vertical-stack-in-card"
         type: horizontal-stack
