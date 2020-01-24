@@ -1,7 +1,7 @@
 ---
 title: Debug - Show All
 icon: "mdi:help-circle"
-panel: truue
+panel: true
 path: debug
 badges: []
 cards:
