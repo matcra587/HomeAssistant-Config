@@ -5,6 +5,7 @@ resources: !include_dir_list lovelace/resources
 
 views:
   - !include lovelace/views/default.yaml
+  - !include lovelace/views/computer.yaml
   - !include lovelace/views/living_room.yaml
   - !include lovelace/views/master_bedroom.yaml
   - !include lovelace/views/raspberry_pi.yaml
