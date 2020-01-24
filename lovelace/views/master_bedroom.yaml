@@ -8,12 +8,12 @@ cards:
   - cards:
       - elements: null
         type: entities
-        entity:
+        entities:
           - type: custom:slider-entity-row
             entity: light.philips_lct015_bede8d03_level_light_color_on_off
-            icon: "mdi:ceiling-light"
-            title: Master Bedroom Light
-            show_header_toggle: false
+        icon: "mdi:ceiling-light"
+        title: Master Bedroom Light
+        show_header_toggle: false
       - elements: null
         type: "custom:mini-media-player"
         entity: media_player.master_bedroom_speaker
