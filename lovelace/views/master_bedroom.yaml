@@ -7,14 +7,20 @@ badges: []
 cards:
   - cards:
       - elements: null
-        entity: light.philips_lct015_bede8d03_level_light_color_on_off
-        show_header_toggle: false
-        title: Master Bedroom Light
-        icon: "mdi:ceiling-light"
-        type: light
+        type: entities
+        entity:
+          - type: custom:slider-entity-row
+            entity: light.philips_lct015_bede8d03_level_light_color_on_off
+            icon: "mdi:ceiling-light"
+            title: Master Bedroom Light
+            show_header_toggle: false
       - elements: null
+        type: "custom:mini-media-player"
         entity: media_player.master_bedroom_speaker
         show_header_toggle: false
-        title: Speakers
-        type: media-control
+        title: Sonos
+        hide:
+          volume: true
+          source: true
+          power_state: false
     type: horizontal-stack
