@@ -1,4 +1,0 @@
----
-sensor:
-  - platform: openhardwaremonitor
-    host: !secret mattspc_ip1
