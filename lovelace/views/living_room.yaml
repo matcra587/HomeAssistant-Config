@@ -17,14 +17,6 @@ cards:
                         icon: "mdi:ceiling-light"
                         title: Living Room Light
                     show_header_toggle: false
-                  - elements: null
-                    type: entities
-                    entities:
-                      - type: custom:slider-entity-row
-                        entity: light.philips_lst002_b5b1f603_level_light_color_on_off
-                        icon: "mdi:led-strip-variant"
-                        title: Living Room Strip
-                    show_header_toggle: false
                 type: horizontal-stack
               - cards:
                   - elements: null
